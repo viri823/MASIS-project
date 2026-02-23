@@ -33,3 +33,16 @@ The control board receives soil moisture data through LoRa, processes irrigation
 
 A galvanic isolation stage was implemented to ensure safe and reliable separation between low-voltage logic and high-power actuation circuits, improving electrical noise immunity and system protection.
 # Communication Flow
+1. LoRa Communication
+   - Long-range, low-power communication between monitoring and control nodes.
+   - Enables future scalability across large agricultural areas.
+2. MQTT Integration
+   - The control board connects to an MQTT broker.
+   - Sensor data and actuator states are published in real time.
+   - Enables remote monitoring and control.
+3. Node-RED Interface
+   - Web-based dashboard.
+   - Real-time soil moisture visualization.
+   - Historical data monitoring.
+   - Manual actuator control.
+   - Connectivity status monitoring.
