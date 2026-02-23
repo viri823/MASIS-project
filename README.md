@@ -40,6 +40,7 @@ A galvanic isolation stage was implemented to ensure safe and reliable separatio
    - The control board connects to an MQTT broker.
    - Sensor data and actuator states are published in real time.
    - Enables remote monitoring and control.
+# Firmware Architecture
 3. Node-RED Interface
    - Web-based dashboard.
    - Real-time soil moisture visualization.
