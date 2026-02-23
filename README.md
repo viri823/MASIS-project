@@ -3,6 +3,11 @@ MASIS *(Modular, Automatic, Smart Irrigation System)* is a modular IoT-based sma
 
 The project achieved **1st place in an Embedded Systems competition**, demonstrating full-stack integration of hardware, firmware, communication protocols, and IoT infrastructure.
 # Project Overview
-
+MASIS was designed to provide:
+- Real-time soil moisture monitoring
+- Intelligent automated irrigation
+- Remote supervision and manual override
+- Scalable architecture for future expansion
+The system separates sensing, control logic, power electronics, and cloud communication into dedicated layers, ensuring modularity and robustness.
 # System Architecture
 # Communication Flow
