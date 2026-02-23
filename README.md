@@ -40,10 +40,38 @@ A galvanic isolation stage was implemented to ensure safe and reliable separatio
    - The control board connects to an MQTT broker.
    - Sensor data and actuator states are published in real time.
    - Enables remote monitoring and control.
-# Firmware Architecture
 3. Node-RED Interface
    - Web-based dashboard.
    - Real-time soil moisture visualization.
    - Historical data monitoring.
    - Manual actuator control.
    - Connectivity status monitoring.
+# Firmware Architecture
+The control board was implemented using FreeRTOS, enabling:
+- Concurrent task management
+- Reliable scheduling of sensing, communication, and actuation
+- Structured and scalable firmware design
+- Deterministic system behavior
+# Scalability Vision
+MASIS was designed with expansion in mind. Future development may include:
+- Multiple monitoring nodes per control unit
+- Multi-zone irrigation
+- Cloud database integration
+- Predictive irrigation algorithms
+- Energy optimization strategies
+- Agricultural-scale deployment
+
+The LoRa + MQTT architecture allows seamless integration of additional nodes without major redesign.
+# Technologies Used
+- ESP32 microcontrollers
+- FreeRTOS
+- LoRa communication
+- MQTT protocol
+- Node-RED
+- Custom PCB design
+- Galvanic isolation circuitry
+# License
+This project is licensed under the MIT License.
+# Author
+Developed as part of an Embedded Systems competition project focused on modular IoT-enabled smart irrigation systems.
+Viridiana Meza Escobedo
