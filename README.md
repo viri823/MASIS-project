@@ -2,7 +2,7 @@
 MASIS *(Modular, Automatic, Smart Irrigation System)* is a modular IoT-based smart irrigation system designed for real-time soil monitoring and automated plant watering. The system was built around a distributed architecture using dual ESP32-based custom PCBs, long-range LoRa communication, MQTT cloud integration, and a Node-RED dashboard interface.
 
 The project achieved **1st place in an Embedded Systems competition**, demonstrating full-stack integration of hardware, firmware, communication protocols, and IoT infrastructure.
-# Project Overview
+## Project Overview
 MASIS was designed to provide:
 - Real-time soil moisture monitoring
 - Intelligent automated irrigation
@@ -10,7 +10,7 @@ MASIS was designed to provide:
 - Scalable architecture for future expansion
 
 The system separates sensing, control logic, power electronics, and cloud communication into dedicated layers, ensuring modularity and robustness.
-# System Architecture
+## System Architecture
 The architecture is divided into two main hardware modules:
 1. Monitoring Board (Sensor Node)
    - Microcontroller: ESP32
@@ -32,7 +32,8 @@ The monitoring board is responsible exclusively for acquiring soil moisture data
 The control board receives soil moisture data through LoRa, processes irrigation logic, activates actuators (valves and pumps), and publishes system data to an MQTT broker.
 
 A galvanic isolation stage was implemented to ensure safe and reliable separation between low-voltage logic and high-power actuation circuits, improving electrical noise immunity and system protection.
-# Communication Flow
+
+## Communication Flow
 1. LoRa Communication
    - Long-range, low-power communication between monitoring and control nodes.
    - Enables future scalability across large agricultural areas.
@@ -46,13 +47,15 @@ A galvanic isolation stage was implemented to ensure safe and reliable separatio
    - Historical data monitoring.
    - Manual actuator control.
    - Connectivity status monitoring.
-# Firmware Architecture
+   
+## Firmware Architecture
 The control board was implemented using FreeRTOS, enabling:
 - Concurrent task management
 - Reliable scheduling of sensing, communication, and actuation
 - Structured and scalable firmware design
 - Deterministic system behavior
-# Scalability Vision
+
+## Scalability Vision
 MASIS was designed with expansion in mind. Future development may include:
 - Multiple monitoring nodes per control unit
 - Multi-zone irrigation
@@ -62,7 +65,8 @@ MASIS was designed with expansion in mind. Future development may include:
 - Agricultural-scale deployment
 
 The LoRa + MQTT architecture allows seamless integration of additional nodes without major redesign.
-# Technologies Used
+
+## Technologies Used
 - ESP32 microcontrollers
 - FreeRTOS
 - LoRa communication
@@ -70,8 +74,15 @@ The LoRa + MQTT architecture allows seamless integration of additional nodes wit
 - Node-RED
 - Custom PCB design
 - Galvanic isolation circuitry
-# License
+  
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-# Author
+
+## Authors
 Developed as part of an Embedded Systems competition project at Universidad Politécnica de Yucatán, focused on modular IoT-enabled smart irrigation systems.
-Team: Viridiana Meza Escobedo, Julio César Canto Aguilar, Valentina Osorio Reyes, Emmanuel Guillermo Pool Zapata & Jesús Alejandro Pool Zapata.
+### Team: 
+    - Viridiana Meza Escobedo
+    - Julio César Canto Aguilar
+    - Valentina Osorio Reyes
+    - Emmanuel Guillermo Pool Zapata
+    - Jesús Alejandro Pool Zapata.
