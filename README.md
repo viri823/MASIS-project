@@ -19,7 +19,8 @@ The architecture is divided into two main hardware modules:
    - Real-time data acquisition
    - Low-power logic stage
 
-The monitoring board is responsible exclusively for acquiring soil moisture data and transmitting it via LoRa to the control board.\
+The monitoring board is responsible exclusively for acquiring soil moisture data and transmitting it via LoRa to the control board.\\
+
 2. Control Board (Gateway & Actuation Node)
    - Microcontroller: ESP32
    - LoRa receiver
