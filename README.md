@@ -86,3 +86,4 @@ Developed as part of an Embedded Systems competition project at Universidad Poli
     - Valentina Osorio Reyes
     - Emmanuel Guillermo Pool Zapata
     - Jesús Alejandro Pool Zapata.
+Universidad Politécnica de Yucatán
