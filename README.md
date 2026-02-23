@@ -71,7 +71,7 @@ The LoRa + MQTT architecture allows seamless integration of additional nodes wit
 - Custom PCB design
 - Galvanic isolation circuitry
 # License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
 # Author
-Developed as part of an Embedded Systems competition project focused on modular IoT-enabled smart irrigation systems.
-Viridiana Meza Escobedo
+Developed as part of an Embedded Systems competition project at Universidad Politécnica de Yucatán, focused on modular IoT-enabled smart irrigation systems.
+Team: Viridiana Meza Escobedo, Julio César Canto Aguilar, Valentina Osorio Reyes, Emmanuel Guillermo Pool Zapata & Jesús Alejandro Pool Zapata.
